@@ -1,0 +1,6 @@
+# ClamAV database files directory
+# Download these files from: https://database.clamav.net/
+# Files needed:
+# - main.cvd
+# - daily.cvd
+# - bytecode.cvd

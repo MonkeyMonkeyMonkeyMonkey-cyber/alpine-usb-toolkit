@@ -1,0 +1,33 @@
+# Build artifacts
+iso-output/
+alpine-root/
+iso-build/
+
+# ISO and large files
+*.iso
+*.iso.sha256
+
+# ClamAV databases (don't commit - download separately)
+clamav-dbs/*.cvd
+!clamav-dbs/.gitkeep
+
+# Logs
+*.log
+/logs/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.Thumbs.db
